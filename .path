@@ -2,10 +2,13 @@
 export PATH="/usr/local/bin:$PATH";
 export PATH="$PATH:$HOME/browserdrivers";
 
+# Add python to path
+export PATH="/usr/local/opt/python/libexec/bin:$PATH";
+export PATH="$HOME/Library/Python/2.7/bin:$PATH";
+
 # RVM config
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
 
 # NPM packages in homedir
 NPM_PACKAGES="$HOME/.npm-packages"
