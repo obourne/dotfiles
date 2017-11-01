@@ -1,4 +1,4 @@
-# Mathias’s dotfiles
+# Ollie's dotfiles (Based on Mathias Bynens)
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
 
