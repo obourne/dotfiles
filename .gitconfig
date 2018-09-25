@@ -18,6 +18,8 @@
 	psubmod = !"git submodule foreach git pull origin develop"
 	
 	rbremote = !"git pull --rebase origin"
+	
+	recent = !"git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print $3 }' | awk ' !x[$0]++' | head -n5"
 
 	# Clone a repository including all submodules
 	c = clone --recursive
